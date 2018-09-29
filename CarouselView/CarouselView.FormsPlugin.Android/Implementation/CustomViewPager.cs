@@ -1,16 +1,16 @@
-﻿using System;
-using System.Linq;
-using Android.Content;
+﻿using Android.Content;
 using Android.Runtime;
 using Android.Support.V4.View;
 using Android.Util;
 using Android.Views;
 using CarouselView.FormsPlugin.Abstractions;
+using System;
+using System.Linq;
 using Xamarin.Forms;
 
 namespace CarouselView.FormsPlugin.Android
 {
-	public class CustomViewPager : ViewPager, IViewPager
+    public class CustomViewPager : ViewPager, IViewPager
 	{
 		private bool _isSwipingEnabled = true;
         private CarouselViewControl _element;

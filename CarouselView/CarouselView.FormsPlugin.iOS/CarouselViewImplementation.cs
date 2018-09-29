@@ -1,13 +1,12 @@
+using CarouselView.FormsPlugin.Abstractions;
+using CarouselView.FormsPlugin.iOS;
+using CoreGraphics;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
-using CarouselView.FormsPlugin.Abstractions;
-using CarouselView.FormsPlugin.iOS;
-using CoreGraphics;
-using Foundation;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
@@ -35,10 +34,10 @@ using Xamarin.Forms.Platform.iOS;
 [assembly: ExportRenderer(typeof(CarouselViewControl), typeof(CarouselViewRenderer))]
 namespace CarouselView.FormsPlugin.iOS
 {
-	/// <summary>
-	/// CarouselView Renderer
-	/// </summary>
-	public class CarouselViewRenderer : ViewRenderer<CarouselViewControl, UIView>
+    /// <summary>
+    /// CarouselView Renderer
+    /// </summary>
+    public class CarouselViewRenderer : ViewRenderer<CarouselViewControl, UIView>
 	{
         bool orientationChanged;
 

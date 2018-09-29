@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 
 namespace CarouselView.FormsPlugin.Abstractions
 {
-	public static class IEnumerableExtensions
+    public static class IEnumerableExtensions
 	{
 		public static object GetItem(this IEnumerable e, int index)
 		{

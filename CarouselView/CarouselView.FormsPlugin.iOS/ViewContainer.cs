@@ -6,7 +6,7 @@ using Xamarin.Forms;
 
 namespace CarouselView.FormsPlugin.iOS
 {
-	public class ViewContainer : UIViewController
+    public class ViewContainer : UIViewController
 	{
 	    private readonly View _element;
 	    private readonly CarouselViewControl _parent;

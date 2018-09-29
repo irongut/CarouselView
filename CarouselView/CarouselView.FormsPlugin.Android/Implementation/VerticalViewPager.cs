@@ -17,19 +17,19 @@
 
 // https://android.googlesource.com/platform/packages/apps/DeskClock/+/master/src/com/android/deskclock/VerticalViewPager.java
 
-using System;
-using System.Linq;
 using Android.Content;
 using Android.Runtime;
 using Android.Support.V4.View;
 using Android.Util;
 using Android.Views;
 using CarouselView.FormsPlugin.Abstractions;
+using System;
+using System.Linq;
 
 namespace CarouselView.FormsPlugin.Android
 {
 
-	public class VerticalViewPager : ViewPager, IViewPager
+    public class VerticalViewPager : ViewPager, IViewPager
 	{
         private bool isSwipingEnabled = true;
         private CarouselViewControl Element;

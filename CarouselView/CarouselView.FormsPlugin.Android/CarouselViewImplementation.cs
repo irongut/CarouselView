@@ -1,22 +1,19 @@
-using System;
-using System.Linq;
-using System.Threading.Tasks;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Support.V4.App;
 using Android.Support.V4.View;
 using CarouselView.FormsPlugin.Abstractions;
 using CarouselView.FormsPlugin.Android;
+using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.Linq;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
-using System.ComponentModel;
-
 using AViews = Android.Views;
-using System.Collections.Specialized;
-using System.Collections.Generic;
-
-using Android.Support.V4.App;
-using Android.OS;
-using Android.Runtime;
-using Android.Content;
-using Java.Lang;
 
 /*
  * Save state in Android:

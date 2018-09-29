@@ -1,16 +1,12 @@
-﻿using System;
-
-using Android.Content;
+﻿using Android.Content;
 using Android.Runtime;
 using Android.Support.V4.View;
 using Android.Views;
 using Android.Widget;
-
 using CarouselView.FormsPlugin.Abstractions;
-
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
-
 using View = Xamarin.Forms.View;
 
 namespace CarouselView.FormsPlugin.Android

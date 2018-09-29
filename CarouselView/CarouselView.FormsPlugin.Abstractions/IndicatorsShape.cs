@@ -1,7 +1,6 @@
-﻿using System;
-namespace CarouselView.FormsPlugin.Abstractions
+﻿namespace CarouselView.FormsPlugin.Abstractions
 {
-	public enum IndicatorsShape
+    public enum IndicatorsShape
 	{
 		Circle,
 		Square

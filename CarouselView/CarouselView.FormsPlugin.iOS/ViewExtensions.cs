@@ -1,7 +1,7 @@
 ﻿
+using CoreGraphics;
 using UIKit;
 using Xamarin.Forms.Platform.iOS;
-using CoreGraphics;
 
 namespace CarouselView.FormsPlugin.iOS
 {

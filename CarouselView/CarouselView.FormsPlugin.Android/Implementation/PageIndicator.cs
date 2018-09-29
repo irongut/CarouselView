@@ -22,7 +22,7 @@ using Android.Support.V4.View;
 
 namespace CarouselView.FormsPlugin.Android
 {
-	public interface PageIndicator : ViewPager.IOnPageChangeListener
+    public interface PageIndicator : ViewPager.IOnPageChangeListener
 	{
 		/**
 	     * Bind the indicator to a ViewPager.

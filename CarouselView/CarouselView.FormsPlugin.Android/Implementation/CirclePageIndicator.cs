@@ -1,13 +1,12 @@
 using Android.Content;
-using Android.OS;
-using Android.Views;
 using Android.Graphics;
+using Android.OS;
+using Android.Support.V4.Content;
 using Android.Support.V4.View;
 using Android.Util;
-using Java.Lang;
+using Android.Views;
 using CarouselView.FormsPlugin.Abstractions;
-using Android.Support.V4.Content;
-using System;
+using Java.Lang;
 
 /*
  * Copyright 2013 Tomasz Cielecki
@@ -30,7 +29,7 @@ using System;
 
 namespace CarouselView.FormsPlugin.Android
 {
-	public class CirclePageIndicator : ViewGroup, PageIndicator
+    public class CirclePageIndicator : ViewGroup, PageIndicator
 	{
 		const int HORIZONTAL = 0;
 		const int VERTICAL = 1;

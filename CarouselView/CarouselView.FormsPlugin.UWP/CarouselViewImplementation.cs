@@ -1,17 +1,17 @@
 ﻿using CarouselView.FormsPlugin.Abstractions;
 using CarouselView.FormsPlugin.UWP;
 using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.Threading.Tasks;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Xamarin.Forms.Platform.UWP;
-using System.ComponentModel;
-using System.Collections.Generic;
 using Windows.UI.Xaml.Media;
-using System.Collections.ObjectModel;
-using System.Threading.Tasks;
 using Windows.UI.Xaml.Shapes;
-using System.Collections.Specialized;
 using Xamarin.Forms;
+using Xamarin.Forms.Platform.UWP;
 
 [assembly: ExportRenderer(typeof(CarouselViewControl), typeof(CarouselViewRenderer))]
 namespace CarouselView.FormsPlugin.UWP
